@@ -1,0 +1,18 @@
+.container {
+  margin-top: 84px;
+  margin-bottom: 84px;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+  .container {
+    margin-top: 124px;
+    margin-bottom: 124px;
+  }
+}
