@@ -1,0 +1,35 @@
+.container {
+  margin-top: 84px;
+  margin-bottom: 84px;
+  display: grid;
+}
+img {
+  height: 11.25rem;
+  width: 100%;
+}
+.topic-btns {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+}
+.results-area {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand {
+    width: 100%;
+    text-align: center;
+  }
+  .topic-btns {
+    grid-template-columns: repeat(2, auto);
+  }
+  .results-area {
+    grid-template-columns: repeat(1, auto);
+  }
+
+  .container {
+    margin-top: 124px;
+    margin-bottom: 124px;
+  }
+}
